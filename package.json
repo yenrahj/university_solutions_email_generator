@@ -1,13 +1,14 @@
 {
-  "name": "allcampus-licensing-emails",
+  "name": "allcampus-email-generator",
   "version": "1.0.0",
-  "description": "AI-powered email generation for AllCampus Licensing Model",
+  "description": "AI-powered email generation for AllCampus",
   "main": "api/generate.js",
   "scripts": {
     "test": "node test.js"
   },
   "dependencies": {
-    "axios": "^1.6.0"
+    "axios": "^1.6.0",
+    "openai": "^4.77.0"
   },
   "engines": {
     "node": ">=18"
